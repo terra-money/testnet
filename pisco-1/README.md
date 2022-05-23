@@ -28,7 +28,7 @@ $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.15uluna"/g' ~/.terra/config/app.toml
 
 # This will prevent continuous reconnection try. (default P2P_PORT is 26656)
-$ sed -i 's/external_address = ""/external_address = "[YOUR_EXTERNAL_IP_ADDRESS:P2P_PORT]"/g' ~/.terra/config/config.toml
+$ sed -i -e 's/external_address = \"\"/external_address = \"'$(curl httpbin.org/ip | jq -r .origin)':26656\"/g' ~/.terra/config/config.toml
 
 $ terrad start
 ```
