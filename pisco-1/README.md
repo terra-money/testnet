@@ -27,8 +27,8 @@ $ wget https://raw.githubusercontent.com/terra-money/testnet/master/pisco-1/gene
 $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.15uluna"/g' ~/.terra/config/app.toml
 
-# This will prevent continuous reconnection try
-$ sed -i 's/external_address = ""/external_address = "[YOUR_EXTERNAL_IP_ADDRESS:PORT]"/g' ~/.terra/config/config.toml
+# This will prevent continuous reconnection try. (default P2P_PORT is 26656)
+$ sed -i 's/external_address = ""/external_address = "[YOUR_EXTERNAL_IP_ADDRESS:P2P_PORT]"/g' ~/.terra/config/config.toml
 
 $ terrad start
 ```
