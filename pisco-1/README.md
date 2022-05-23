@@ -13,6 +13,7 @@ Testnet for Terra 2.0.
 * jq
 
 ## How to Setup
+See setup documentation at: https://docs.terra.money/docs/full-node/run-a-full-terra-node/README.html
 
 ```shell
 $ git clone https://github.com/terra-money/core
