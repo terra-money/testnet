@@ -6,6 +6,11 @@ Testnet for Terra 2.0.
 
 - The genesis event for Pisco-1 testnet will occur **2022-05-23T06:00:00Z (UTC)**
 
+## Prerequisites
+* Go v1.18+ or higher
+* Git
+* curl
+* jq
 
 ## How to Setup
 
