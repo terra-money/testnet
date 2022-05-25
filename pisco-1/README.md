@@ -4,7 +4,7 @@ Testnet for Terra 2.0.
 
 [core@v2.0.0-rc.0](https://github.com/terra-money/core/releases/v2.0.0-rc.0) should be used to run the testnet.
 
-[core@v2.0.0-rc.1](https://github.com/terra-money/core/releases/v2.0.0-rc.1) contains `InitChainer` bugfix, so [core@v2.0.0-rc.0](https://github.com/terra-money/core/releases/v2.0.0-rc.0) should be used for genesis block. After genesis block sync, node operator can update node version to core@v2.0.0-rc.1+.
+[core@v2.0.0-rc.1](https://github.com/terra-money/core/releases/v2.0.0-rc.1) contains `InitChainer` bugfix, so [core@v2.0.0-rc.0](https://github.com/terra-money/core/releases/v2.0.0-rc.0) should be used for genesis block. After genesis block sync, node operator can update node version to `v2.0.0-rc.1+`.
 
 - The genesis event for Pisco-1 testnet will occur **2022-05-23T06:00:00Z (UTC)**
 
