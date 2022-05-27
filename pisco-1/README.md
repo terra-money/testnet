@@ -42,6 +42,7 @@ $ terrad start
 ### Seed Nodes
 ```
 c08d5b3d253bea18b24593a894a0aa6e168079d3@34.232.34.124:26656
+9d5591e5979a4f3c4ef4342e924a7d7c536b202d@pisco-seed.blockpane.com:26656
 ```
 
 ### Known Peers
