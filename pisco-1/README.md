@@ -3,8 +3,10 @@
 Testnet for Terra 2.0.
 
 [core@v2.0.0-rc.0](https://github.com/terra-money/core/releases/v2.0.0-rc.0) should be used to run the testnet.
+[core@v2.1.0-beta.1](https://github.com/terra-money/core/releases/v2.1.0-beta.1) should be used to run the testnet from the height `838500`.
 
 - The genesis event for Pisco-1 testnet will occur **2022-05-23T06:00:00Z (UTC)**
+- The Software Upgrade Proposal executed at height `838500` with [core@v2.1.0-beta.1](https://github.com/terra-money/core/releases/v2.0.0-beta.1).
 
 ## Prerequisites
 * Go v1.18+ or higher
