@@ -42,6 +42,7 @@ $ terrad start
 ### Seed Nodes
 ```
 c08d5b3d253bea18b24593a894a0aa6e168079d3@34.232.34.124:26656
+3bfc40d3d7f14b59c5943bf2d45ce103d42174c5@seed-terra-testnet.moonshot.army:26655
 ```
 
 ### Known Peers
